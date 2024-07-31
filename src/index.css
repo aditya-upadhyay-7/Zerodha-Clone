@@ -42,3 +42,7 @@ code {
 .footer-anchor a:hover {
   color: #387ED1;
 }
+
+.image-cluster img{
+  margin: 0 60px 0 60px;
+}
