@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
       <nav class="navbar navbar-expand-lg border-bottom sticky-top" style={{backgroundColor:"#FFF"}}>
         <div class="container p-2">
-          <a class="navbar-brand" href="/" style={{marginLeft: "88px"}}>
+          <Link class="navbar-brand" to="/" style={{marginLeft: "88px"}}>
             <img src="media/images/logo.svg" style={{width:"22%"}} alt="Logo"/>
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -23,33 +24,33 @@ function Navbar() {
             <form class="d-flex" role="search">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="/">
+                <Link class="nav-link active" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="/">
+                <Link class="nav-link active" to="/about">
                   About
-                </a>
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="/">
+                <Link class="nav-link active" to="/products">
                   Products
-                </a>
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="/">
+                <Link class="nav-link active" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
           
               <li class="nav-item">
-                <a class="nav-link active" href="/">
+                <Link class="nav-link active" to="/support">
                   Support
-                </a>
+                </Link>
               </li>
 
             </ul>
