@@ -46,3 +46,7 @@ code {
 .image-cluster img{
   margin: 0 60px 0 60px;
 }
+
+.pricing-listItems li {
+  padding: 2px;
+}
